@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heart Medical Assistant</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'chat/style.css' %}">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <h2>
+
+        Heart Medical Assistant
+      </h2>
+      <div class="chat-subtitle">24/7 Cardiac Health Support</div>
+    </div>
+    
+    <div id="chat">
+      <div class="empty-state">
+        <div class="icon">💬</div>
+        <div>Ask me anything about heart health</div>
+      </div>
+    </div>
+    
+    <div class="input-container">
+      <input 
+        id="input" 
+        placeholder="Ask about heart health, symptoms, prevention..." 
+        onkeypress="if(event.key === 'Enter') send()"
+      />
+      <button onclick="send()">Send</button>
+    </div>
+  </div>
+
+  <script src="{% static 'chat/script.js' %}"></script>
+</body>
+</html>
