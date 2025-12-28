@@ -35,6 +35,4 @@ The assistant provides **educational heart health information** related to:
 1. Start Ollama:
 ```bash
 ollama run mistral
-<img width="573" height="676" alt="project 3" src="https://github.com/user-attachments/assets/e5e05272-0a7e-4ea0-9c51-f5dc223079a5" />
-<img width="561" height="676" alt="project 2" src="https://github.com/user-attachments/assets/8d40c2a3-6c13-4035-bfd2-fa4cacc72538" />
-<img width="580" height="701" alt="project 1" src="https://github.com/user-attachments/assets/c7856fa1-e725-4c25-9a68-01b180dbf9e6" />
+
