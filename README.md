@@ -36,3 +36,13 @@ The assistant provides **educational heart health information** related to:
 ```bash
 ollama run mistral
 
+```
+
+## Project Screenshots
+
+![Project 3](https://github.com/user-attachments/assets/f77fcf5b-be4d-4727-b7b3-9d24c5700192)
+![Project 2](https://github.com/user-attachments/assets/319854b4-51e0-4fd8-9910-38e929e4f231)
+![Project 1](https://github.com/user-attachments/assets/3fd61b8e-c869-472a-9a5c-f950d4d6c9c4)
+
+
+
